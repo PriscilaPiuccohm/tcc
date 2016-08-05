@@ -1,0 +1,2 @@
+# tcc
+Parte teorica 
