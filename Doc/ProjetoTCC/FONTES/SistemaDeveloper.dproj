@@ -87,12 +87,20 @@
             <Form>FPrincipal</Form>
             <FormType>dfm</FormType>
         </DCCReference>
-        <DCCReference Include="Ulogin.pas">
-            <Form>Flogin</Form>
-            <FormType>dfm</FormType>
-        </DCCReference>
         <DCCReference Include="UCadAluno.pas">
             <Form>FCadAluno</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="USplash.pas">
+            <Form>Tela_Splash</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="Ulogin.pas">
+            <Form>Flog</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="UCadFuncionario.pas">
+            <Form>FFuncionario</Form>
             <FormType>dfm</FormType>
         </DCCReference>
         <BuildConfiguration Include="Release">
@@ -499,13 +507,13 @@
                         <Operation>1</Operation>
                     </Platform>
                 </DeployClass>
-                <ProjectRoot Platform="iOSDevice32" Name="$(PROJECTNAME).app"/>
+                <ProjectRoot Platform="OSX32" Name="$(PROJECTNAME).app"/>
                 <ProjectRoot Platform="Android" Name="$(PROJECTNAME)"/>
                 <ProjectRoot Platform="Win32" Name="$(PROJECTNAME)"/>
                 <ProjectRoot Platform="iOSDevice64" Name="$(PROJECTNAME).app"/>
                 <ProjectRoot Platform="Win64" Name="$(PROJECTNAME)"/>
-                <ProjectRoot Platform="OSX32" Name="$(PROJECTNAME).app"/>
                 <ProjectRoot Platform="iOSSimulator" Name="$(PROJECTNAME).app"/>
+                <ProjectRoot Platform="iOSDevice32" Name="$(PROJECTNAME).app"/>
             </Deployment>
             <Platforms>
                 <Platform value="Win32">True</Platform>

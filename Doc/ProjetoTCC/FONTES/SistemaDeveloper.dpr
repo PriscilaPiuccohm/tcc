@@ -3,16 +3,22 @@ program SistemaDeveloper;
 uses
   Vcl.Forms,
   UPrincipal in 'UPrincipal.pas' {FPrincipal},
-  Ulogin in 'Ulogin.pas' {Flogin},
-  UCadAluno in 'UCadAluno.pas' {FCadAluno};
+  UCadAluno in 'UCadAluno.pas' {FCadAluno},
+  USplash in 'USplash.pas' {Tela_Splash},
+  Ulogin in 'Ulogin.pas' {Flog},
+  UCadFuncionario in 'UCadFuncionario.pas' {FFuncionario};
 
 {$R *.res}
 
-begin
+ Begin
   Application.Initialize;
-  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TTela_Splash, Tela_Splash);
+  Application.CreateForm(TFlog, Flog);
   Application.CreateForm(TFPrincipal, FPrincipal);
-  Application.CreateForm(TFlogin, Flogin);
   Application.CreateForm(TFCadAluno, FCadAluno);
+  Application.CreateForm(TFFuncionario, FFuncionario);
   Application.Run;
-end.
+  end.
+
+
+

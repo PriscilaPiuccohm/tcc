@@ -20,8 +20,18 @@
     <Transaction>2016/08/26 20:37:09.000.873,=C:\ProjetoTCC\FONTES\Unit1.pas</Transaction>
     <Transaction>2016/08/26 20:50:34.000.411,C:\ProjetoTCC\FONTES\Unit1.dfm=C:\ProjetoTCC\FONTES\Ulogin.dfm</Transaction>
     <Transaction>2016/08/26 20:50:34.000.411,C:\ProjetoTCC\FONTES\Unit1.pas=C:\ProjetoTCC\FONTES\Ulogin.pas</Transaction>
-    <Transaction>2016/08/26 21:15:01.073,=C:\ProjetoTCC\FONTES\Unit1.pas</Transaction>
-    <Transaction>2016/08/26 21:18:41.861,C:\ProjetoTCC\FONTES\UCadAluno.pas=C:\ProjetoTCC\FONTES\Unit1.pas</Transaction>
-    <Transaction>2016/08/26 21:18:41.861,C:\ProjetoTCC\FONTES\UCadAluno.dfm=C:\ProjetoTCC\FONTES\Unit1.dfm</Transaction>
+    <Transaction>2016/08/26 21:15:01.000.073,=C:\ProjetoTCC\FONTES\Unit1.pas</Transaction>
+    <Transaction>2016/08/26 21:18:41.000.861,C:\ProjetoTCC\FONTES\UCadAluno.dfm=C:\ProjetoTCC\FONTES\Unit1.dfm</Transaction>
+    <Transaction>2016/08/26 21:18:41.000.861,C:\ProjetoTCC\FONTES\UCadAluno.pas=C:\ProjetoTCC\FONTES\Unit1.pas</Transaction>
+    <Transaction>2016/08/31 20:40:34.000.707,=C:\ProjetoTCC\FONTES\Unit1.pas</Transaction>
+    <Transaction>2016/08/31 20:45:13.000.453,C:\ProjetoTCC\FONTES\Unit1.dfm=C:\ProjetoTCC\FONTES\USplash.dfm</Transaction>
+    <Transaction>2016/08/31 20:45:13.000.453,C:\ProjetoTCC\FONTES\Unit1.pas=C:\ProjetoTCC\FONTES\USplash.pas</Transaction>
+    <Transaction>2016/09/01 21:39:12.000.776,C:\ProjetoTCC\FONTES\Ulogin.pas=</Transaction>
+    <Transaction>2016/09/02 13:01:59.000.958,=C:\ProjetoTCC\FONTES\Unit1.pas</Transaction>
+    <Transaction>2016/09/02 13:07:14.000.207,C:\ProjetoTCC\FONTES\Ulogin.pas=C:\ProjetoTCC\FONTES\Unit1.pas</Transaction>
+    <Transaction>2016/09/02 13:07:14.000.207,C:\ProjetoTCC\FONTES\Ulogin.dfm=C:\ProjetoTCC\FONTES\Unit1.dfm</Transaction>
+    <Transaction>2016/09/08 20:23:08.000.032,=C:\ProjetoTCC\FONTES\Unit1.pas</Transaction>
+    <Transaction>2016/09/08 20:24:11.000.151,C:\ProjetoTCC\FONTES\Unit1.pas=C:\ProjetoTCC\FONTES\UCadFuncionario.pas</Transaction>
+    <Transaction>2016/09/08 20:24:11.000.151,C:\ProjetoTCC\FONTES\Unit1.dfm=C:\ProjetoTCC\FONTES\UCadFuncionario.dfm</Transaction>
   </Transactions>
 </BorlandProject>

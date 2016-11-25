@@ -1,9 +1,11 @@
-object Flogin: TFlogin
+object Flog: TFlog
   Left = 0
   Top = 0
-  Caption = 'SISTEMA DEVELOPER'
-  ClientHeight = 433
-  ClientWidth = 831
+  BorderIcons = [biSystemMenu, biMinimize, biMaximize, biHelp]
+  BorderStyle = bsDialog
+  Caption = 'Login'
+  ClientHeight = 335
+  ClientWidth = 849
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -11,14 +13,15 @@ object Flogin: TFlogin
   Font.Name = 'Tahoma'
   Font.Style = []
   OldCreateOrder = False
-  WindowState = wsMaximized
+  Position = poDesktopCenter
+  OnClose = FormClose
   PixelsPerInch = 96
   TextHeight = 13
   object Image1: TImage
     Left = 0
     Top = 0
-    Width = 831
-    Height = 433
+    Width = 849
+    Height = 335
     Align = alClient
     Picture.Data = {
       0954506E67496D61676589504E470D0A1A0A0000000D49484452000001200000
@@ -8867,61 +8870,53 @@ object Flogin: TFlogin
       1F7B68F6BEE0C531E98D2BF550791D11FF1FE2C9EB5A0E45E77F91396F40D78F
       1E9D4267E4C1E571EEA7FC075BE935D821DD99B40000000049454E44AE426082}
     Stretch = True
-    ExplicitLeft = 16
-    ExplicitTop = 8
+    ExplicitHeight = 327
   end
-  object Label1: TLabel
-    Left = 362
-    Top = 40
-    Width = 61
-    Height = 25
-    Caption = 'LOGIN'
-    Font.Charset = DEFAULT_CHARSET
-    Font.Color = clBlue
-    Font.Height = -21
-    Font.Name = 'Tahoma'
-    Font.Style = []
-    ParentFont = False
+  object Usuario: TLabel
+    Left = 256
+    Top = 24
+    Width = 36
+    Height = 13
+    Caption = 'Usuario'
   end
-  object Label2: TLabel
-    Left = 339
-    Top = 110
-    Width = 110
-    Height = 25
-    Caption = 'PASSWORD'
-    Font.Charset = DEFAULT_CHARSET
-    Font.Color = clBlue
-    Font.Height = -21
-    Font.Name = 'Tahoma'
-    Font.Style = []
-    ParentFont = False
+  object senha: TLabel
+    Left = 256
+    Top = 91
+    Width = 30
+    Height = 13
+    Caption = 'Senha'
   end
-  object Button1: TButton
-    Left = 348
-    Top = 200
+  object Bentrar: TButton
+    Left = 328
+    Top = 144
     Width = 75
     Height = 25
-    Caption = 'SIGN IN'
-    Font.Charset = DEFAULT_CHARSET
-    Font.Color = clAqua
-    Font.Height = -13
-    Font.Name = 'Tahoma'
-    Font.Style = []
-    ParentFont = False
+    Caption = 'Entrar'
     TabOrder = 0
+    OnClick = BentrarClick
   end
-  object Edit: TEdit
+  object Bcancelar: TButton
     Left = 328
-    Top = 71
-    Width = 121
-    Height = 21
+    Top = 208
+    Width = 75
+    Height = 25
+    Caption = 'Cancelar'
     TabOrder = 1
+    OnClick = BcancelarClick
   end
-  object Edita: TEdit
-    Left = 328
-    Top = 149
+  object Eusuario: TEdit
+    Left = 304
+    Top = 21
     Width = 121
     Height = 21
     TabOrder = 2
+  end
+  object Esenha: TEdit
+    Left = 304
+    Top = 88
+    Width = 121
+    Height = 21
+    PasswordChar = '#'
+    TabOrder = 3
   end
 end
